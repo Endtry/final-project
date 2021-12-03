@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Red+Hat+Mono:wght@300&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            body {
+                font-family: 'Outfit', sans-serif;
+                font-family: 'Red Hat Mono', monospace;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            .box-shadow {
+                -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+                box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+            }
+            .title {
+                color: #5b4a4a;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .contact-form {
+                margin-top: 200px !important;
+                width: 600px;
+                background-color: #f1f1f1;
+                padding: 20px;
+                margin: 0px auto;
+                border-radius: 15px;
+                border: 1px solid #CCC;
+            }
+            label {
+                color: #5b4a4a;
+            }
+            label, input, textarea {
+                display:block;
+                width: calc(100% - 20px);
+            }
+            input, textarea {
+                margin: 5px 0px 15px;
+                padding: 10px;
+            }
+            .submit-button {
+                width: 100px;
+                background-color: #f1f1f1;
+                color: #5b4a4a;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="contact-form box-shadow" action="#">
+            <h1 class="title">Contact Us</h1>
+            <label for="first-name">First Name: </label>
+            <input type="text" id="first-name" placeholder="First Name...">
+            <label for="last-name">Last Name: </label>
+            <input type="text" id="last-name" placeholder="Last Name...">
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Email...">
+            <label for="questions">Question: </label>
+            <textarea id="questions" rows="10" cols="70">Leave a question here...</textarea>
+            <input class="submit-button" type="submit" value="Send">
+        </form>
+    </body>
+</html>
