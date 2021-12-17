@@ -1,0 +1,94 @@
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Footer CSS from Bootstrap */ 
+.footer-nav {
+    background-color: #f8f9fa;
+    margin-top: 25px;
+    padding: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main-content, 
+.right-nav {
+    margin-top: 20px;
+}
+/* End Footer CSS from Bootstrap */
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px)  {  
+    body {
+        background-color: green;
+    }
+    .main-content, 
+    .right-nav {
+        margin-top: 20px;
+    }
+    .left-nav, 
+    .main-content, 
+    .right-nav {
+        width: 100%;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    body {
+        background-color: blue;
+    }
+    .main-content, 
+    .right-nav {
+        margin-top: 0px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    body {
+        background-color: purple;
+    }
+    .main-content, 
+    .right-nav {
+        margin-top: 0px;
+    }
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
